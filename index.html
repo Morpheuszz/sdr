@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Recepção</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="h"><h1 id="header">Semana de Recepção</h1></div>
+    <p id="text">Digite os códigos encontrados nos QR Codes para desvendar a pergunta secreta</p>
+    <form>
+        <input type="text" name="codigo" id="codigo" onsubmit="return codigos()">
+    </form>
+    <button type="button" onclick="codigos()">Enviar</button>
+    <p id="palavra"></p>
+</body>
+</html>
